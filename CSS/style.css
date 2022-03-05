@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+main {
+    width: 85vw;
+    height: 100vh;
+    margin: auto;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+}
+
+/* pagina inicial */
+
+.input {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: beige;
+}
+
+.input * {
+    font-size: 20px;
+}
+
+.input h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.input div {
+    padding: 10px;
+}
+
+
+input {
+    width: 200px;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 0 10px;
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    background-color: rgba(189, 40, 40, 0.952);
+    border-color: black;
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+    color:white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+/* LOCALIZAÇÃO INFORMADA */
+
+#cidade {
+    padding: 10px 10px 5px; 
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#temperatura {
+    padding: 5px 10px 10px;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.condicoes-clima {
+    display: flex;
+    flex-direction: column;
+}
+
+.condicoes-clima * {
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+span {
+    font-weight: 600;
+}
